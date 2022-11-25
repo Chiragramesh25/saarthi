@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+  /* font-family: 'Roboto', sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+.nav-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul{
+  display: flex;
+  flex-direction: row;
+  list-style:none;
+  font-size: 20px;
+}
+
+.nav-links ul li a{
+  text-decoration: none;
+  margin: 25px;
+  color: black;
+}
+
+.nav-links ul li a:hover{
+  margin: 25px;
+  color: red;
+}
+
+.nav-btn{
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(255, 58, 58);
+  text-decoration: none;
+}
+
+.nav-btn:hover{
+  cursor: pointer;
+  background-color: rgb(37, 33, 33);
+}
+
+.nav-logo img{
+  height: 100px;
+}
+
+
+/* sticky navbar */
+
+/* HomePage */
+
+.homepage-main{
+  height: 100vh;
+  background-size:cover;
+}
+
+
+.hp-img{
+  width: 90vh;
+  height: 80vh;
+}
+
+/* .hp-main{
+  display: flex;
+  justify-content:flex-end;
+} */
+
+.hp-cont{
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage-cont{
+  padding: 20px 40px;
+  width: 600px;
+  height: 350px;
+  text-align: left;
+  margin: 20px 50px ;;
+  border-radius: 10px;
+}
+
+.homepage-head{
+  font-weight: 900;
+  margin: 20px 0px;
+  text-transform: uppercase;
+}
+
+.btn-home{
+  background-color: rgb(255, 0, 0);
+  border: none;
+  padding: 10px ;
+  font-size: 25px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+.btn-home:hover{
+  background-color: rgb(196, 0, 0);
+}
+
+/* services */
+
+.services-main{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 62vh;
+  padding: 150px 50px;
+  
+}
+
+
+.feature{
+  border: 1px solid black;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  width: 250px;
+  margin: 30px;
+}
+
+.feature:hover{
+  cursor: pointer;
+}
+
+.feature-icon{
+  width: 100px;
+  margin: 20px;
+}
+
+.features-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.feature-text{
+  margin: 5px 0px;
+}
+
+
+/* booking */
+
+.book-logo{
+  width: 90vh;
+  width: 90vh;
+  margin-left: 10px;
+
+}
+
+.booking-main{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.book-inputs{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  margin-left: 130px;
+  margin-top: 40px;
+  align-items: center;
+  border:2px solid black;
+  height: 65vh;
+  border-radius: 8px;
+}
+
+.book-inputs h2{
+  font-size: 40px;
+  margin: 20px;
+  color: white;
+  font-weight: 900;
+}
+
+.inp{
+  width: 250px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.book-label{
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.book-btn{
+  padding: 10px 18px;
+  margin: 15px;
+  font-size: 18px;
+  cursor:pointer;
+}
+
+.Amb-home{
+  display: flex;
+  flex-direction: row;
+}
+
+.Amb-img{
+  width: 70vh;
+  height: 70vh;
+  border: 1px solid black;
+}
+
+.Amb-nav{
+  border: 1px solid black;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Amb-user{
+  background-color: blueviolet;
+  margin: 2px;
+  padding: 2px;
+}
+
+.log{
+  padding: 2px;
+  margin: 2px 10px;
+}
+
+/* driver profile */
+
+.Driver-Profile{
+  margin: 40px 20px;
+  border: 1px solid black;
+  background-color: red;
+  width:25vh;
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+.vehicle-info{
+  margin-left: 40px;
+  text-align: center;
+}
+
+.op-head{
+  margin-right: 32vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.op-head h3{
+  padding: 0px 40px;
+}
+
+.calls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.user-name{
+  text-align: center;
+  padding: 10px 40px;
+  border: 1px solid black;
+  width: 100px;
+}
+
+.accept-btn{
+  padding: 7px;
+  text-decoration: none;
+  margin: 5px 5px ;
+  font-size: 15px;
+  background-color: rgb(138, 235, 138);
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 100px;
+}
+
+/* login */
+
+.login-main{
+  display: flex;
+  flex-direction: row;  
+  height: 100vh;
+  
+}
+
+.delete-btn{
+  padding: 7px;
+  text-decoration: none;
+  margin: 5px 5px ;
+  font-size: 15px;
+  background-color: rgb(224, 60, 0);
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 100px;
+}
+
+.login-1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  margin-top: 20vh;
+  margin-left: 20vh;
+  border: 1px solid black;
+  height: 60vh;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.log-inp{
+  padding: 10px;
+  width: 370px;
+  font-size: 20px;
+  margin: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.login-bt{
+  border: none;
+  font-size: 20px;
+  width: 300px;
+  padding: 6px ;
+  margin: 15px 70px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgb(137, 137, 249);
+  color: black;
+  cursor: pointer;
+}
+
+.login-bt:hover{
+  background-color: rgb(104, 104, 247);
+}
+
+
+.dashboard-btn{
+  width: 200px;
+  padding: 4px;
+  margin: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dash-pic{
+  width: 20px;}
+
+.sinout-btn{
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 6px ;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 190px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items:flex-end
+  
+}
+
+.login-logo{
+  background-color: rgb(137, 137, 249);
+  width: 50%;
+}
+
+.login-head{
+  text-align: center;
+}
+
+.login-img{
+  width: 400px;
+  height: 400px;
+  margin-left:130px;
+  margin-top: 100px;
+}
+
+.signup-img{
+  margin-top: 120px;
+  width: 60vh;
+  margin-left: 150px
+}
+
+.highlight{
+  color: red;
+  font-size: 75px;
+}
+
+.book-bt{
+  margin: 20px;
+  padding: 8px 15px;
+  font-size: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.book-bt:hover{
+  background-color: rgb(250, 217, 174);
+}
+
+.log-bt-1{
+  font-size: 25px;
+}
+.result-OP{
+  display: flex;
+  flex-direction: row;
+}
+
+.result-Details{
+  width: 50%;
+}
+
+.info-highlight{
+  color: rgb(209, 0, 0);
+}
+
+.result-cont{
+  margin-left: 60px;
+  margin-top: 80px;
+  border: 1px solid black;
+  background-color: rgb(174, 237, 215);
+  text-align: center;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.patient-img{
+  padding: 30px 30px 10px 30px;
+  width: 180px;
+}
+
+.result-map{
+  border:  5px solid black;
+  
+}
+
+.card-img{
+  width: 35px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.patient-info{
+  background-color: rgb(255, 225, 187);
+  padding:20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+
+.dash-nav{
+  background-color: red;
+  display: flex;
+}
+
+.dash-nav-links{
+  display: flex;
+  flex-direction:row;
+  margin: 0vh 30vh;
+}
+
+.dash-nav-links-a{
+  margin: 7px 30px 7px 10px ;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.dash-nav-btn{
+  display: flex;
+  flex-direction: row;
+}
+
+.user-ab{
+  margin-top: 7px;
+  margin-right: 10vh;
+  color: wheat;
+}
+
+.ambu-side{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.ambu-side2{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.live{
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  margin: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(246, 178, 178);
+  width: 600px;
+  border: 1px solid black;
+  margin-left: 60vh;
+  border-radius: 20px;
+}
+
+.ambu-head{
+  color: white;
+  text-decoration: none;
+
+}
